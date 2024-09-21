@@ -14,39 +14,31 @@
   }
   
   @media screen and (max-width: 1200px) {
-    #desktop-nav {
-      display: none;
+    #profile {
+        display: block;
+        height: auto;
     }
-    #hamburger-nav {
-      display: flex;
-    }
-    #experience,
-    .experience-details-container {
-      margin-top: 2rem;
-    }
-    #profile,
+
     .section-container {
-      display: block;
+        display: block;
     }
-    .arrow {
-      display: none;
-    }
-    section,
-    .section-container {
-      height: fit-content;
-    }
-    section {
-      margin: 0 5%;
-    }
+
     .section__pic-container {
-      width: 275px;
-      height: 275px;
-      margin: 0 auto 2rem;
+        width: 100%;  
+        height: auto;  
+        margin: 0 auto 2rem;
     }
-    .about-containers {
-      margin-top: 0;
+
+    .section__text {
+        margin-top: 3rem; 
+        text-align: center; 
     }
-  }
+
+   
+    .section__header-text {
+        margin-top: 1.5rem; 
+    }
+}
   
   @media screen and (max-width: 600px) {
     #contact,
