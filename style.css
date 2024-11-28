@@ -241,13 +241,13 @@ section {
   font-size: 1rem;
   transition: all 300ms ease;
   padding: 1rem;
-  width: 10rem; /* Asegura el mismo ancho para ambos botones */
+  width: 10rem; 
   border-radius: 2rem;
-  text-align: center; /* Centra el texto horizontalmente */
-  line-height: 1.5rem; /* Ajusta el espaciado vertical del texto */
-  display: flex; /* Utiliza flexbox para centrar */
-  justify-content: center; /* Centra el contenido horizontalmente */
-  align-items: center; /* Centra el contenido verticalmente */
+  text-align: center; 
+  line-height: 1.5rem; 
+  display: flex; 
+  justify-content: center; 
+  align-items: center; 
 }
 
 .btn-color-1:hover,
