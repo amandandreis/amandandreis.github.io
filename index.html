@@ -1,0 +1,35 @@
+<!DOCTYPE html>
+<html lang="es">
+<head>
+  <meta charset="UTF-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  <title>Eines Aula</title>
+  <link rel="stylesheet" href="styles.css">
+</head>
+<body>
+  <h1>Ruleta: Amanda Andreis</h1>
+
+  <!-- Ruleta -->
+  <div id="ruleta-container">
+    <section id="ruleta">
+      <h2>Ruleta de Nombres</h2>
+      <canvas id="canvas" width="300" height="300"></canvas>
+      <button id="cargar-nombres">Cargar Nombres</button>
+      <button id="activar-ruleta">Activar Ruleta</button>
+      <p id="nombre-seleccionado"></p>
+    </section>
+  </div>
+  
+  <!-- Temporitzador -->
+  <section id="temporitzador">
+    <h2>Rellotge Temporitzador</h2>
+    <div id="reloj-actual"></div>
+    <input type="time" id="hora-fin">
+    <button id="iniciar-temporizador">Iniciar Temporitzador</button>
+    <div id="cuenta-atras"></div>
+  </section>
+
+  <script src="ruleta.js"></script>
+  <script src="temporizador.js"></script>
+</body>
+</html>
